@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test9(failed)">
+    <classes>
+      <class name="checkpack.VerifyFacbookLogin1">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="closeFacebook"/>
+          <include name="LogoutFacebook"/>
+          <include name="VerifyForgetButton"/>
+          <include name="beforeTest"/>
+          <include name="launchBrowserPage"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- checkpack.VerifyFacbookLogin1 -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
